@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,7 +57,7 @@
         .main-header {
             background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
             color: white;
-            padding: 15px 0;
+            padding: 20px 0;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
@@ -88,17 +88,9 @@
         }
 
         .logo-image {
-            height: 40px;
+            height: 70px;
             width: auto;
             object-fit: contain;
-        }
-
-        .logo-icon {
-            width: 20px;
-            height: 20px;
-            background-color: #1e3a5f;
-            border-radius: 2px;
-        }px;
         }
 
         .logo-icon {
@@ -320,6 +312,10 @@
                 flex-wrap: wrap;
                 gap: 15px;
             }
+            
+            .logo-image {
+                height: 50px;
+            }
         }
     </style>
 </head>
@@ -329,15 +325,15 @@
         <div class="container">
             <div class="feature-item">
                 <span class="checkmark">✓</span>
-                <span class="feature-text"><strong>Livraison gratuite</strong> des produits dans un rayon de 30 km autour de Salé.</span>
+                <span class="feature-text"><strong>Ramzy Shop Is Open</strong></span>
             </div>
             <div class="feature-item">
                 <span class="checkmark">✓</span>
-                <span class="feature-text"><strong>Articles de marques premium</strong> à un prix abordable.</span>
+                <span class="feature-text"><strong>Ramzy Shop Is Open</strong></span>
             </div>
             <div class="feature-item">
                 <span class="checkmark">✓</span>
-                <span class="feature-text"><strong>Retrait des produits</strong> directement depuis notre centre.</span>
+                <span class="feature-text"><strong>Ramzy Shop Is Open</strong></span>
             </div>
         </div>
     </div>
@@ -351,7 +347,7 @@
                 </a>
                 <div class="categories-container">
                     <button class="categories-btn">
-                        ☰ Toutes les catégories
+                        ☰ All Categories
                         <span>▼</span>
                     </button>
                     <div class="categories-dropdown">
@@ -365,7 +361,7 @@
 
             <div class="search-section">
                 <div class="search-container">
-                    <input type="text" class="search-input" placeholder="🔍 Rechercher 🔍 Accessoires pour faux plafonds">
+                    <input type="text" class="search-input" placeholder="🔍 Search 🔍 Accessories for false ceilings">
                     <button class="search-btn">
                         🔍
                     </button>
@@ -373,8 +369,8 @@
             </div>
 
             <div class="contact-section">
-                <div class="phone-number">+212 663 871 474</div>
-                <div class="email">contact@placomaroc.net</div>
+                <div class="phone-number">+212 000 000 000</div>
+                <div class="email">QwertyShop@gmail.com</div>
             </div>
 
             <div class="user-icon">
@@ -387,14 +383,14 @@
     <div class="nav-menu">
         <div class="container">
             <div class="nav-links">
-                <a href="#" class="nav-link">ACCUEIL</a>
-                <a href="#" class="nav-link">À PROPOS</a>
-                <a href="#" class="nav-link">CONTACT</a>
+                <a href="#" class="nav-link">RAMZY</a>
+                <a href="#" class="nav-link">RAMZY</a>
+                <a href="#" class="nav-link">RAMZY</a>
             </div>
             <div class="nav-actions">
-                <a href="#" class="nav-action">♡ Wishlist</a>
-                <a href="#" class="nav-action">⚖ Comparer</a>
-                <button class="add-to-cart-btn">AJOUTER AU DEVIS</button>
+                <a href="#" class="nav-action">RAMZY</a>
+                <a href="#" class="nav-action">RAMZY</a>
+                <button class="add-to-cart-btn">RAMZY</button>
             </div>
         </div>
     </div>
@@ -404,9 +400,9 @@
         document.querySelector('.search-btn').addEventListener('click', function() {
             const searchInput = document.querySelector('.search-input');
             if (searchInput.value.trim()) {
-                alert('Recherche pour: ' + searchInput.value);
+                alert('Searching for: ' + searchInput.value);
             } else {
-                alert('Veuillez entrer un terme de recherche');
+                alert('Please enter a search term');
             }
         });
 
